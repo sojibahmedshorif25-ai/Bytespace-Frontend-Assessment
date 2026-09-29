@@ -13,21 +13,27 @@ const iconMap = {
 };
 
 export default function CategoryPills() {
-  const { activeCategory, setActiveCategory } = useCourse();
+  const { activeCategory, setActiveCategory, courses } = useCourse();
 
   return (
     <div>
       {/* Filter Tabs */}
       <div className="category-tabs">
-        {categories.map((cat) => (
-          <button
-            key={cat.id}
-            onClick={() => setActiveCategory(cat.id)}
-            className={`cat-tab ${activeCategory === cat.id ? 'active' : ''}`}
-          >
-            {cat.name} ({cat.count})
-          </button>
-        ))}
+        {categories.map((cat) => {
+          const count = cat.id === 'all'
+            ? courses.length
+            : courses.filter((c) => c.category === cat.id).length;
+
+          return (
+            <button
+              key={cat.id}
+              onClick={() => setActiveCategory(cat.id)}
+              className={`cat-tab ${activeCategory === cat.id ? 'active' : ''}`}
+            >
+              {cat.name} ({count})
+            </button>
+          );
+        })}
       </div>
     </div>
   );

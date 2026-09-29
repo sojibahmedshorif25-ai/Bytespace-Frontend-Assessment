@@ -321,6 +321,212 @@ export const courses = [
         ]
       }
     ]
+  },
+  {
+    id: 'nextjs-enterprise-saas',
+    title: 'Next.js 15 & React Server Components for SaaS',
+    slug: 'nextjs-enterprise-saas',
+    category: 'web-dev',
+    categoryLabel: 'Web Development',
+    level: 'Intermediate to Advanced',
+    duration: '35 hours',
+    lessonsCount: 120,
+    studentsCount: '9,340',
+    rating: 4.93,
+    reviewCount: 780,
+    price: 49.99,
+    originalPrice: 119.99,
+    badge: 'Popular',
+    thumbnail: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80',
+    videoPreview: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    instructor: {
+      name: 'Sarah Jenkins',
+      role: 'Senior Staff Engineer @ Google',
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
+      bio: 'Ex-Google staff engineer with 10+ years of experience.',
+      coursesCount: 8,
+      rating: 4.95
+    },
+    description: 'Learn to architect, build, and deploy production-ready B2B SaaS platforms using Next.js App Router, Server Actions, Stripe subscriptions, and TailwindCSS.',
+    whatYouWillLearn: [
+      'Master Next.js App Router and Server Components architecture',
+      'Integrate Stripe Billing, webhook handlers, and customer portal',
+      'Implement multi-tenant databases with Prisma ORM and Supabase'
+    ],
+    requirements: ['Solid understanding of React and modern JavaScript'],
+    curriculum: [
+      {
+        title: 'Module 1: Next.js 15 App Architecture',
+        duration: '8 hrs • 30 lessons',
+        lessons: [
+          { title: 'App Router vs Pages Router Mental Model', duration: '20:15', isPreview: true }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'advanced-micro-interactions-ux',
+    title: 'Advanced Micro-Interactions & Prototyping in Figma',
+    slug: 'advanced-micro-interactions-ux',
+    category: 'ui-ux',
+    categoryLabel: 'UI/UX Design',
+    level: 'Intermediate',
+    duration: '22 hours',
+    lessonsCount: 74,
+    studentsCount: '6,200',
+    rating: 4.9,
+    reviewCount: 410,
+    price: 36.99,
+    originalPrice: 89.99,
+    badge: 'Featured',
+    thumbnail: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80',
+    videoPreview: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    instructor: {
+      name: 'Alex Rivera',
+      role: 'Principal Product Designer @ Airbnb',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
+      bio: 'Lead designer who created enterprise design systems used worldwide.',
+      coursesCount: 5,
+      rating: 4.92
+    },
+    description: 'Master smart animate, complex component states, variables, conditional logic, and realistic touch micro-interactions in Figma.',
+    whatYouWillLearn: [
+      'Create delightful micro-interactions and loading states',
+      'Build interactive components with variable modes and expressions'
+    ],
+    requirements: ['Basic familiarity with Figma interface'],
+    curriculum: [
+      {
+        title: 'Module 1: Smart Animate Mastery',
+        duration: '5 hrs • 18 lessons',
+        lessons: [
+          { title: 'Physics of Motion in User Interface Design', duration: '18:40', isPreview: true }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'generative-ai-llm-agents',
+    title: 'Generative AI & LLM Agents with LangChain & OpenAI',
+    slug: 'generative-ai-llm-agents',
+    category: 'data-ai',
+    categoryLabel: 'AI & Data Science',
+    level: 'Intermediate',
+    duration: '30 hours',
+    lessonsCount: 96,
+    studentsCount: '11,400',
+    rating: 4.96,
+    reviewCount: 940,
+    price: 52.99,
+    originalPrice: 139.99,
+    badge: 'Trending',
+    thumbnail: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80',
+    videoPreview: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    instructor: {
+      name: 'Dr. Marcus Vance',
+      role: 'AI Research Lead @ OpenAI',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80',
+      bio: 'Ph.D. in Machine Learning specializing in LLM agents and prompt engineering.',
+      coursesCount: 6,
+      rating: 4.96
+    },
+    description: 'Build production-ready autonomous AI agents, Retrieval-Augmented Generation (RAG) pipelines, and embeddings with LangChain and vector databases.',
+    whatYouWillLearn: [
+      'Design RAG architectures for custom company knowledge bases',
+      'Develop multi-agent workflows with tool-calling capabilities'
+    ],
+    requirements: ['Intermediate Python knowledge'],
+    curriculum: [
+      {
+        title: 'Module 1: LangChain & Vector Embeddings',
+        duration: '7 hrs • 24 lessons',
+        lessons: [
+          { title: 'Vector Search & Chunking Strategies', duration: '22:10', isPreview: true }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'flutter-cross-platform-mastery',
+    title: 'Flutter & Dart: Complete iOS and Android Development',
+    slug: 'flutter-cross-platform-mastery',
+    category: 'mobile',
+    categoryLabel: 'Mobile Apps',
+    level: 'Beginner to Advanced',
+    duration: '38 hours',
+    lessonsCount: 130,
+    studentsCount: '10,150',
+    rating: 4.89,
+    reviewCount: 710,
+    price: 42.99,
+    originalPrice: 109.99,
+    badge: 'Hot',
+    thumbnail: 'https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800&auto=format&fit=crop&q=80',
+    videoPreview: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+    instructor: {
+      name: 'David Chen',
+      role: 'Lead Mobile Architect @ Spotify',
+      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80',
+      bio: 'Mobile architect building high-performance cross-platform apps.',
+      coursesCount: 4,
+      rating: 4.89
+    },
+    description: 'Build smooth 120fps cross-platform mobile applications for iOS and Android with Flutter 3, Bloc state management, and Firebase backend.',
+    whatYouWillLearn: [
+      'Master Dart programming language and Flutter widget tree',
+      'Implement reactive state management with Bloc and Riverpod'
+    ],
+    requirements: ['Basic understanding of object-oriented programming'],
+    curriculum: [
+      {
+        title: 'Module 1: Flutter Architecture & Widgets',
+        duration: '8 hrs • 26 lessons',
+        lessons: [
+          { title: 'Building Pixel-Perfect Responsive Layouts in Flutter', duration: '24:30', isPreview: true }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'terraform-infrastructure-as-code',
+    title: 'Terraform & AWS Cloud Automation for SREs',
+    slug: 'terraform-infrastructure-as-code',
+    category: 'cloud',
+    categoryLabel: 'Cloud & DevOps',
+    level: 'Intermediate',
+    duration: '25 hours',
+    lessonsCount: 82,
+    studentsCount: '5,900',
+    rating: 4.92,
+    reviewCount: 380,
+    price: 47.99,
+    originalPrice: 124.99,
+    badge: 'Enterprise',
+    thumbnail: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80',
+    videoPreview: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+    instructor: {
+      name: 'Elena Rostova',
+      role: 'Principal Cloud Architect @ AWS',
+      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80',
+      bio: 'Certified AWS Solutions Architect helping companies build cloud infrastructure.',
+      coursesCount: 4,
+      rating: 4.94
+    },
+    description: 'Automate enterprise multi-region AWS cloud infrastructure using Terraform modules, remote state locking with DynamoDB, and CI/CD pipelines.',
+    whatYouWillLearn: [
+      'Provision scalable VPCs, ECS clusters, and RDS databases with Terraform',
+      'Automate Terraform linting and security scans in GitHub Actions'
+    ],
+    requirements: ['Basic knowledge of AWS services and cloud concepts'],
+    curriculum: [
+      {
+        title: 'Module 1: Terraform Core Principles & HCL',
+        duration: '6 hrs • 20 lessons',
+        lessons: [
+          { title: 'State Files, Providers & Resource Declarations', duration: '19:15', isPreview: true }
+        ]
+      }
+    ]
   }
 ];
 
