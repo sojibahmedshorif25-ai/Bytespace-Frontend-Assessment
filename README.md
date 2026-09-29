@@ -9,8 +9,8 @@
 ---
 
 ## 🚀 Live Demo & Submission Links
+- **GitHub Public Repository:** [https://github.com/sojibahmedshorif25-ai/Bytespace-Frontend-Assessment](https://github.com/sojibahmedshorif25-ai/Bytespace-Frontend-Assessment)
 - **Live Vercel Deployment:** [https://bytespace-frontend-assessment.vercel.app](https://bytespace-frontend-assessment.vercel.app) *(or your deployed Vercel URL)*
-- **GitHub Public Repository:** *(Submit your repository link)*
 
 ---
 
