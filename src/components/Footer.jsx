@@ -72,9 +72,9 @@ export default function Footer() {
           <div>
             <h4 className="footer-heading">Platform</h4>
             <ul className="footer-links">
-              <li><a href="#features" className="footer-link">Live Mentorship</a></li>
-              <li><a href="#features" className="footer-link">Code Challenges</a></li>
-              <li><a href="#reviews" className="footer-link">Student Success</a></li>
+              <li><a href="/#features" className="footer-link">Live Mentorship</a></li>
+              <li><a href="/#features" className="footer-link">Code Challenges</a></li>
+              <li><a href="/#reviews" className="footer-link">Student Success</a></li>
               <li><Link to="/courses" className="footer-link">Enterprise Plans</Link></li>
               <li><Link to="/signup" className="footer-link">Scholarships</Link></li>
             </ul>

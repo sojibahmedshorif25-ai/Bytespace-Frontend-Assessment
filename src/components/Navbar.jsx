@@ -54,17 +54,17 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <a href="#features" className="nav-link">
+            <a href="/#features" className="nav-link">
               Why ByteSpace
             </a>
           </li>
           <li>
-            <a href="#mentors" className="nav-link">
+            <a href="/#mentors" className="nav-link">
               Mentors
             </a>
           </li>
           <li>
-            <a href="#reviews" className="nav-link">
+            <a href="/#reviews" className="nav-link">
               Reviews
             </a>
           </li>
@@ -265,14 +265,14 @@ export default function Navbar() {
             Browse All Courses
           </NavLink>
           <a
-            href="#features"
+            href="/#features"
             onClick={() => setMobileMenuOpen(false)}
             style={{ color: 'rgba(255,255,255,0.85)', fontSize: '1rem' }}
           >
             Why ByteSpace
           </a>
           <a
-            href="#reviews"
+            href="/#reviews"
             onClick={() => setMobileMenuOpen(false)}
             style={{ color: 'rgba(255,255,255,0.85)', fontSize: '1rem' }}
           >
